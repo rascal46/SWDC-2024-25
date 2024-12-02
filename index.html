@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tittle of the page-->
+    <title>MY FIRST WEBSITE</title>
+    <!--Connecting CSS File to HTML File-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--VIDEO:04-->
+    <h1>There Are 100 Words Below:-</h1>
+    <!--Using Lorem function-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis culpa laboriosam dolorum porro fugit minus minima ut hic corporis, sapiente, eligendi inventore iure! Minima laboriosam, velit iste fuga atque quod quam, officiis inventore voluptate voluptas dolorem cupiditate suscipit totam nihil distinctio aspernatur. Iusto doloremque sit necessitatibus, sed quisquam quo nam atque nulla cum molestiae ad explicabo magnam esse earum deserunt pariatur unde! Dolorem consequatur fugit eum vel dicta! Ipsam sunt consectetur dolore explicabo ratione voluptatem odit, tempore, doloribus animi blanditiis, doloremque consequatur natus atque quasi eos suscipit perferendis. Molestias iste sunt, suscipit repellat consectetur quis aspernatur maxime iusto sint tempora.</p>
+
+    <h2>There Are 50 Words Below:-</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, atque sapiente. Vitae nulla ipsa veniam qui itaque a nisi quasi facere quo delectus. Distinctio, quidem, quo cumque ex, perspiciatis veritatis ipsam nobis accusantium velit dolores maxime sit sunt labore voluptatem. Quisquam, vitae aliquid modi molestiae ea animi reprehenderit officiis quaerat.</p>
+
+    <h3>Inline CSS</h3> <!--Here CSS is attribute to <p> and not connected to style.css file-->
+    <p style="background-color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo assumenda harum nihil, architecto dolorem praesentium ea error ipsa quae corrupti laborum temporibus suscipit maiores quisquam, facere doloribus tempore deleniti dolorum, sit vero earum placeat. Quia, voluptatibus amet perferendis sapiente et cumque maiores placeat perspiciatis iure recusandae ullam maxime? Quo.</p>
+
+    <h2>My Links:-</h2>
+    <p><a href="https://www.google.com/">GOOGLE</a></p>
+    <p><a href="https://wheredoestheanimeleaveoff.com/">ANIME LEAVE OFF</a></p>
+    <p><a target="_blank" href="https://www.youtube.com/">YOUTUBE</a></p>
+    <!--target=_blank means website will open in new tab-->
+
+    <!--VIDEO:05-->
+
+    <h3>Adding Image:-</h3>
+    <!--inserting image-->
+    <p>
+        <img height="500" src="gfhjgyj.jpg" alt="Krypton">
+    </p>
+    
+    <h3>Adding Tables:-</h3>
+    <!--using tables-->
+    <p>
+        <table>
+          <caption>Age And Nationality</caption> <!--adding table captions-->
+
+          
+          <!--  using header-->
+            <thead>
+              STARTING
+            </thead>       
+          
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>language</th>
+              <th>location</th>
+            </tr>
+            <tr>
+              <td>Harry</td>
+              <td>100</td>
+              <td>hindi</td>
+              <td>Indian</td>
+            </tr>
+            <tr>
+              <td>Sam</td>
+              <td>50</td>
+              <td rowspan="2">english</td>
+              <td colspan="2">Indian</td>
+              <!--using colspan and rowspan-->
+            </tr>
+            <tr>
+              <td>Andrew</td>
+              <td>107</td>
+              <td>english</td>
+              <td>English</td>
+            </tr>
+          </tbody>
+
+            <!-- using footer -->
+            <tfoot>
+              ENDING
+           </tfoot>
+
+          </table>
+          
+    </p>
+
+    <h3>Adding Lists:-</h3>
+    
+    <h4>Unorderd List</h4>
+
+    <p>
+      <!--unordered list-->
+      <ul type="square"> <!--changing bullets-->
+        <li>Iswar</li>
+        <li>Allah</li>
+        <li>God</li>
+      </ul>
+      
+      <h4>Orderd List</h4>
+
+      <!--ordered list--> 
+      <ol type="I"> <!--changing numbers-->
+        <li>Iswar</li>
+        <li>Allah</li>
+        <li>God</li>
+      </ol>
+    </p>
+
+    <!--VIDEO:07-->
+    <!--Learning Forms And Input Types-->
+
+    <h1>FORM TO APPLY TO SWDC :) </h1>
+    <p>
+      <form action="post">
+
+        <label for="usha">ENTER USERNAME</label>
+        <input type="text" id="usha" name="username" placeholder="Enter your username">
+        <!--id tag is an unique identifier-->
+
+        <div>
+        
+        <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <!--id should be equal to for-->
+          
+        <input type="checkbox" id="Attack Helicopter" name="gender" value="Attack Helicopter">
+          <label for="Attack Helicopter">Attack Helicopter</label>
+          <!--radio can be selected one at a time but checkboxes can be selected multiple-->
+        
+        </div>
+
+        <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+          <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <div>
+
+          <br>
+          <label for="thoughts">Write Your Thoughts</label>
+          
+          <br> <!--use this tag less often-->
+          <textarea id="thoughts" name="comment" rows="4" cols="50">Write Your Thoughts!</textarea>
+
+        </div>
+
+        <div>
+
+          <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+          </select>
+
+        </div>
+
+      </form>
+    </p>
+
+    <!--VIDEO:08-->
+
+    <p>Paragraph is a block element</p> <!--The BG Colour takes the width of the screen-->
+
+    <a href="http://www.google.com">Google(anchor is incline)</a> <!--The BG Colour covers just the word-->
+
+    <div>div is a block element</div>
+    
+    <span>span is incline</span> <a href="">its true</a>
+
+    <!--VIDEO:09-->
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+/*VIDEO:05*/
+
+
+/* bordering table via css*/
+td{
+    border: 2px solid blueviolet;
+}
