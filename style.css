@@ -5,3 +5,56 @@
 td{
     border: 2px solid blueviolet;
 }
+
+/*VIDEO:08*/
+
+/*Inline And Block Elements*/
+
+/*uncomment only when needed*/
+
+
+/*
+#robin {
+    background-color: blueviolet;
+}
+
+/*The BG Colour takes the width of the screen*/
+
+
+/*
+#ted{
+    background-color: rgb(230, 15, 97);
+}
+
+/*The BG Colour covers just the word*/
+
+
+/*
+div{
+    background-color: rgb(211, 128, 28);
+}
+
+span{
+    background-color: brown;
+}
+    
+/*
+
+/*VIDEO:09*/
+
+.men{ background-color: palevioletred;
+
+    /* (.) denotes class */
+    
+    }
+    
+    .boy{
+        color: blue;
+    }
+    
+    #ren{ background-color: red;
+    
+    /*(#) denotes id*/
+    
+    }
+    
